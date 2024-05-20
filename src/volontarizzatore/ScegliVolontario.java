@@ -62,3 +62,29 @@ public class ScegliVolontario
         System.out.println("Il \"volontario\" scelto è "+scelto.nome + " "+scelto.cognome+ ", aveva frequenza "+scelto.frequenzaOfferta);
     }
 }
+//Caso 2
+//la lista adatti conterrà
+// Andrea", "Paffi"
+// Cesare", "Malara",
+// Claudia", "Amoruso
+// Eva", "Lopez
+// Federica", "Rocchetti
+// Giuliano", "Cafolla"
+// Lorenzo", "Giustozzi
+// Silvia", "Tancredi",
+//size = 8
+
+
+//1/8= 0,125
+
+//Math.random da un numero tra:
+//0     e 0,124 ->Andrea", "Paffi"           0   e 0,124 * 8 -> 0 e 0,99999  -> 0
+//0,125 e 0,249 ->Cesare", "Malara"          0,125 e 0,249 * 8 -> 1 e 1,9999 -> 1
+//0,251 e 0,375 ->Claudia", "Amoruso"
+//0,376 e 0,500 ->Eva", "Lopez"
+//0,501 e 0,625 ->Federica", "Rocchetti"
+//0,626 e 0,750 ->Giuliano", "Cafolla"
+//0,751 e 0,875 ->Lorenzo", "Giustozzi"
+//0,876 e 0,999 ->Silvia", "Tancredi"
+
+
