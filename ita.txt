@@ -1,0 +1,3 @@
+presentation=Ciao sono il programma
+termination=Addio, alla prossima
+happy_salute=Yeeee,contento di vederti
