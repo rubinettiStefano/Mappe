@@ -1,0 +1,7 @@
+fork=forchetta
+spoon=cucchiaio
+cup=tazza
+door=porta
+dog=cane
+pencil=matita
+noTranslation=intraducibile
